@@ -1,0 +1,135 @@
+Table Data_مشخصات {
+  Address integer
+  Fasl integer
+  Weight integer
+  KhanevarType integer
+  Takmil integer
+  TakmilDescA integer
+  TakmilDescB integer
+  TakmilDescC integer
+  Jaygozin integer
+  JaygozinDescA integer
+  JaygozinDescB integer
+  BlkAbdJaygozin integer
+  RadifJaygozin integer
+  Province varchar
+  Town integer
+}
+
+Table P1_خصوصیاتـاحتماعی {
+  Address integer
+  Member integer
+  Relation varchar
+  Gender varchar
+  Age integer
+  Literacy varchar
+  Studying varchar
+  Degree varchar
+  Occupationalst varchar
+  Martialst varchar
+}
+
+Table P2_سکونت {
+  Address integer
+  Tenure varchar
+  Room integer
+  Space integer
+  Construction integer
+  Material varchar
+  Vehicle boolean
+  Motorcycle boolean
+  Bicycle boolean
+  Radio boolean
+  RadioTape boolean
+  TVbw boolean
+  TV boolean
+  VHS_VCD_DVD boolean
+  Computer boolean
+  Cellphone boolean
+  Freezer boolean
+  Refrigerator boolean
+  Fridge boolean
+  Stove boolean
+  Vaccum boolean
+  WashingMachine boolean
+  SewingMachine boolean
+  Fan boolean
+  evapcoolingportable boolean
+  splitportable boolean
+  DishWasher boolean
+  Microwave boolean
+  None boolean
+  PipeWater boolean
+  Electricity boolean
+  Pipegas boolean
+  Telephone boolean
+  internet boolean
+  Bathroom boolean
+  Kitchen boolean
+  EvapCooling boolean
+  CentralCooling boolean
+  CentralHeating boolean
+  Package boolean
+  Split boolean
+  WasteWater boolean
+  CookingFuel varchar
+  HeatingFuel varchar
+  WAterHeatingFuel varchar
+}
+
+Table P3S0102_خوراکی{
+  Address integer
+  Code integer
+  Purchased integer
+  Gram integer
+  KiloGram integer
+  Price integer
+  Value integer
+}
+
+Table P3S03_05_06_07_08_09_11_12_غیرخوراکی {
+  Address integer
+  Code integer
+  Purchased integer
+  Value integer
+}
+
+Table P3S04_مسکن {
+  Address integer
+  Code integer
+  Mortgage integer
+  Purchased integer
+  Value integer
+}
+
+Table P3S13_هزینه {
+  Address integer
+  Code integer
+  Value integer
+}
+
+Table P3S14_سرمایهگذاری {
+  Address integer
+  Code integer
+  Purchased integer
+  value integer
+  Sales integer
+}
+
+Table P4S1_درآمدحقوق {
+  Address integer
+  Member integer
+  Employed_w boolean
+  ISCO_w integer
+  status_w integer
+  hours_w integer
+  days_w integer
+  income_w_m integer
+  income_w_y integer
+  wage_w_m integer
+  wage_w_y integer
+  perk_w_m integer
+  perk_w_y integer
+  netincome_w_m integer
+  netincome_w_y integer
+}
